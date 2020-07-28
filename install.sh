@@ -10,4 +10,4 @@ DOWNLOAD_VERSION=$GUNBOT_VERSION
 wget https://github.com/GuntharDeNiro/BTCT/releases/download/v$DOWNLOAD_VERSION/lin.zip
 unzip lin.zip
 mv lin gunbot
-chmod +x gunbot/gunthy-linx64
+chmod +x gunbot/gunthy-linux
