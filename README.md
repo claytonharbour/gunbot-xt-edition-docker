@@ -22,7 +22,7 @@ Compatible with Gunbot version : v11.7.6
 - To Run Container
 
 ```bash
-docker run -d -p 5000:5000 jakkie/gunbot-xt-edition-docker
+docker run -d -p 5000:5000 claytonharbour/gunbot-xt-edition-docker
 ```
 
 - After gunbot is running browse to the url example http://your-ip:5000
