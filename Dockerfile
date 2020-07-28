@@ -16,6 +16,6 @@ WORKDIR /app/gunbot
 
 VOLUME /app/gunbot/
 
-CMD ./gunthy-linx64
+CMD ./gunthy-linux
 
 EXPOSE 5000
