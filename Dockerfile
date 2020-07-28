@@ -12,10 +12,12 @@ COPY install.sh .
 
 RUN ./install.sh
 
+COPY patch/gunthy-linux-19.3.3 gunthy-linux-19.3.3
+
 WORKDIR /app/gunbot
 
 VOLUME /app/gunbot/
 
-CMD ./gunthy-linux
+CMD ./gunthy-linux-19.3.3
 
 EXPOSE 5000
