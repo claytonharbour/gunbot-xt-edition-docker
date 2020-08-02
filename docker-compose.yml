@@ -2,7 +2,7 @@ version: '3'
 
 services:
   gunbot:
-    image: jakkie/gunbot-xt-edition-docker
+    image: claytonharbour/gunbot-xt-edition-docker
     build: .
     container_name: gunbot
     restart: always
